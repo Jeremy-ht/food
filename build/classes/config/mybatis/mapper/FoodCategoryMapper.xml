@@ -33,6 +33,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<if test="name != null">
 			where name like '%${name}%' 
 		</if>
+		order by id desc
 		<if test="offset != null and pageSize != null">
 			limit #{offset},#{pageSize}
 		</if>

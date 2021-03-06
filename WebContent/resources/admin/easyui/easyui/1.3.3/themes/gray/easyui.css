@@ -595,7 +595,7 @@
 .tabs-icon {
   position: absolute;
   width: 16px;
-  height: 16px;
+  /*height: 16px;*/
   left: 10px;
   top: 50%;
   margin-top: -8px;

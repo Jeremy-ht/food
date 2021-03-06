@@ -30,7 +30,7 @@
   border-color: #95B8E7;
 }
 .accordion .accordion-header {
-  background: #E0ECFF;
+  background: red;
   filter: none;
 }
 .accordion .accordion-header-selected {

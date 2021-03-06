@@ -24,6 +24,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<if test="categoryId != null">
 			and categoryId = #{categoryId}  
 		</if>
+		order by id desc
 		<if test="offset != null and pageSize != null">
 			limit #{offset},#{pageSize}
 		</if>

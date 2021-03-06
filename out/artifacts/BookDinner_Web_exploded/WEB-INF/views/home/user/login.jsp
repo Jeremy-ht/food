@@ -52,6 +52,8 @@ $("#registerSubmit").click(function(){
 	window.location.href = 'registe';
 });		
 $("#loginSubmit").click(function(){
+
+
 	$.ajax({
 		url:'login',
 		data:$("#login-form").serialize(),
@@ -59,10 +61,11 @@ $("#loginSubmit").click(function(){
 		dataType:'json',
 		success:function(data){
 			if(data.type == 'success'){
-				alert('登录成功');
+				// alert('登录成功');
+                $.alert("登录成功");
 				window.location.href = '../index/index';
 			}else{
-				alert(data.msg);
+                $.alert(data.msg);
 			}
 		}
 	});
