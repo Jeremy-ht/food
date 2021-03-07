@@ -23,10 +23,10 @@
                 <td width="60" align="right">用户名:</td>
                 <td><input type="text" name="name" class="wu-text easyui-validatebox" data-options="required:true, missingMessage:'请填写用户名'" /></td>
             </tr>
-            <tr>
-                <td width="60" align="right">密码:</td>
-                <td><input type="password" name="password" class="wu-text easyui-validatebox" data-options="required:true, missingMessage:'请填写密码'" /></td>
-            </tr>
+<%--            <tr>--%>
+<%--                <td width="60" align="right">密码:</td>--%>
+<%--                <td><input type="password" name="password" class="wu-text easyui-validatebox" data-options="required:true, missingMessage:'请填写密码'" /></td>--%>
+<%--            </tr>--%>
             <tr>
                 <td width="60" align="right">真实姓名:</td>
                 <td><input type="text" name="realName" class="wu-text easyui-validatebox" /></td>
@@ -51,10 +51,10 @@
                 <td width="60" align="right">用户名:</td>
                 <td><input type="text" id="edit-name" name="name" class="wu-text easyui-validatebox" data-options="required:true, missingMessage:'请填写用户名'" /></td>
             </tr>
-            <tr>
-                <td width="60" align="right">密码:</td>
-                <td><input type="password" id="edit-password" name="password" class="wu-text easyui-validatebox" data-options="required:true, missingMessage:'请填写密码'" /></td>
-            </tr>
+<%--            <tr>--%>
+<%--                <td width="60" align="right">密码:</td>--%>
+<%--                <td><input type="password" id="edit-password" name="password" class="wu-text easyui-validatebox" data-options="required:true, missingMessage:'请填写密码'" /></td>--%>
+<%--            </tr>--%>
             <tr>
                 <td width="60" align="right">真实姓名:</td>
                 <td><input type="text" id="edit-realName" name="realName" class="wu-text easyui-validatebox" /></td>
@@ -252,7 +252,7 @@
 		columns:[[
 			{ field:'chk',checkbox:true},
 			{ field:'name',title:'用户名',width:100,sortable:true},
-			{ field:'password',title:'密码',width:100},
+			// { field:'password',title:'密码',width:100},
 			{ field:'realName',title:'真实姓名',width:100},
 			{ field:'phone',title:'手机号',width:100},
 			{ field:'address',title:'地址',width:200}

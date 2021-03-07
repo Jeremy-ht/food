@@ -7,167 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85436f98-cbba-4fd0-ae6e-8b955a0bf5ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookDinner_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BookDinner_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/resources/home/js/echarts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookDinner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/food.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/common/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/index/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/index/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/user/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/account/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/account/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/user/registe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/home/user/registe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/edit_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/edit_password.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/system/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/user/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/css/wu.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/css/wu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.2/themes/default/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/default/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/gray/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.3/themes/gray/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/black/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/black/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/easyui/easyui/1.3.4/themes/default/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/admin/login/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/admin/login/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/home/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/home/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/home/css/flat.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/home/css/flat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/resources/home/dinner/css/flat.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/home/dinner/css/flat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/FoodCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/FoodCategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/FoodController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/LogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/SystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/SystemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/admin/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/home/HomeAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/home/HomeAccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/home/HomeOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/controller/home/HomeOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/interceptor/admin/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/interceptor/admin/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/util/CpachaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/ischoolbar/programmer/util/CpachaUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/config/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/config/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/FoodCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/FoodCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/FoodMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/admin/LogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/admin/LogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/admin/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/config/mybatis/mapper/admin/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/FoodCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/FoodCategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/FoodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/FoodController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/LogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/SystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/SystemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/admin/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/home/HomeAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/home/HomeAccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/home/HomeOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/controller/home/HomeOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/interceptor/admin/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/interceptor/admin/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/util/CpachaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/com/ischoolbar/programmer/util/CpachaUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/FoodCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/FoodCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/FoodMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/admin/LogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/admin/LogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/admin/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/classes/config/mybatis/mapper/admin/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/common/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/index/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/index/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/user/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/home/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/edit_password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/edit_password.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/system/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/WEB-INF/views/user/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/css/wu.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/css/wu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.2/themes/default/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/default/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/gray/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.3/themes/gray/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/black/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/black/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/easyui/easyui/1.3.4/themes/default/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/login/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/admin/login/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/home/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/home/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/home/css/flat.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/home/css/flat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/home/dinner/css/flat.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookDinner_Web_exploded/resources/home/dinner/css/flat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/admin/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/admin/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/home/HomeAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/home/HomeAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/home/HomeOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/home/HomeOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/dao/admin/LogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/dao/admin/LogDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/mybatis/mapper/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mybatis/mapper/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/mybatis/mapper/FoodCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mybatis/mapper/FoodCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/mybatis/mapper/FoodMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mybatis/mapper/FoodMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/mybatis/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mybatis/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/mybatis/mapper/admin/LogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mybatis/mapper/admin/LogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/admin/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/admin/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/admin/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/controller/admin/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ischoolbar/programmer/dao/admin/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ischoolbar/programmer/dao/admin/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/mybatis/mapper/admin/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mybatis/mapper/admin/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,6 +43,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1pMvJqooODgLjKFn5HyD3meNYyW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -195,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent/resources/admin/easyui/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -203,6 +63,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\IdeaProjects\school\food\WebContent\resources\admin\easyui\js" />
+      <recent name="D:\workspace\IdeaProjects\school\food\WebContent\resources\home\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\IdeaProjects\school\food\WebContent\WEB-INF\views\system" />
+      <recent name="D:\workspace\IdeaProjects\school\food\WebContent\resources\home\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -284,7 +154,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.091962904" />
+          <option name="contentProportion" value="0.16306028" />
           <treeState>
             <expand>
               <path>
@@ -294,7 +164,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -314,12 +184,27 @@
       <option name="presentableId" value="Default" />
       <updated>1614483514028</updated>
       <workItem from="1614483516799" duration="13510000" />
-      <workItem from="1615005708726" duration="20258000" />
+      <workItem from="1615005708726" duration="20669000" />
+      <workItem from="1615087814125" duration="35000" />
+      <workItem from="1615101532499" duration="925000" />
+      <workItem from="1615103849173" duration="9928000" />
     </task>
+    <task id="LOCAL-00001" summary="upd">
+      <created>1615043260537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615043260537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615029570413">
@@ -334,74 +219,82 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="472" y="275" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1366.738@0.0.1366.738" timestamp="1615018223143" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1615043254338">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1615043254338" />
+    <state x="92" y="92" width="1182" height="554" maximized="true" key="DiffContextDialog" timestamp="1615112857396">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" maximized="true" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1615112857396" />
     <state x="325" y="110" key="FileChooserDialogImpl" timestamp="1615040048239">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="325" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1615040048239" />
-    <state width="1174" height="317" key="GridCell.Tab.0.bottom" timestamp="1615043097214">
+    <state width="1082" height="317" key="GridCell.Tab.0.bottom" timestamp="1615112773175">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615043097214" />
-    <state width="1174" height="317" key="GridCell.Tab.0.center" timestamp="1615043097213">
+    <state width="1082" height="317" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615112773175" />
+    <state width="1082" height="317" key="GridCell.Tab.0.center" timestamp="1615112773175">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1615043097213" />
-    <state width="1174" height="317" key="GridCell.Tab.0.left" timestamp="1615043097212">
+    <state width="1082" height="317" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1615112773175" />
+    <state width="1082" height="317" key="GridCell.Tab.0.left" timestamp="1615112773174">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1615043097212" />
-    <state width="1174" height="317" key="GridCell.Tab.0.right" timestamp="1615043097214">
+    <state width="1082" height="317" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1615112773174" />
+    <state width="1082" height="317" key="GridCell.Tab.0.right" timestamp="1615112773175">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1615043097214" />
-    <state width="1174" height="317" key="GridCell.Tab.1.bottom" timestamp="1615043097215">
+    <state width="1082" height="317" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1615112773175" />
+    <state width="1082" height="317" key="GridCell.Tab.1.bottom" timestamp="1615112773177">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615043097215" />
-    <state width="1174" height="317" key="GridCell.Tab.1.center" timestamp="1615043097215">
+    <state width="1082" height="317" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615112773177" />
+    <state width="1082" height="317" key="GridCell.Tab.1.center" timestamp="1615112773176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1615043097215" />
-    <state width="1174" height="317" key="GridCell.Tab.1.left" timestamp="1615043097214">
+    <state width="1082" height="317" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1615112773176" />
+    <state width="1082" height="317" key="GridCell.Tab.1.left" timestamp="1615112773176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1615043097214" />
-    <state width="1174" height="317" key="GridCell.Tab.1.right" timestamp="1615043097215">
+    <state width="1082" height="317" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1615112773176" />
+    <state width="1082" height="317" key="GridCell.Tab.1.right" timestamp="1615112773176">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1615043097215" />
-    <state width="1174" height="317" key="GridCell.Tab.2.bottom" timestamp="1615043097216">
+    <state width="1082" height="317" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1615112773176" />
+    <state width="1082" height="317" key="GridCell.Tab.2.bottom" timestamp="1615112773178">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615043097216" />
-    <state width="1174" height="317" key="GridCell.Tab.2.center" timestamp="1615043097216">
+    <state width="1082" height="317" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615112773178" />
+    <state width="1082" height="317" key="GridCell.Tab.2.center" timestamp="1615112773177">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1615043097216" />
-    <state width="1174" height="317" key="GridCell.Tab.2.left" timestamp="1615043097215">
+    <state width="1082" height="317" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1615112773177" />
+    <state width="1082" height="317" key="GridCell.Tab.2.left" timestamp="1615112773177">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1615043097215" />
-    <state width="1174" height="317" key="GridCell.Tab.2.right" timestamp="1615043097216">
+    <state width="1082" height="317" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1615112773177" />
+    <state width="1082" height="317" key="GridCell.Tab.2.right" timestamp="1615112773178">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1615043097216" />
-    <state width="1174" height="317" key="GridCell.Tab.3.bottom" timestamp="1615043097217">
+    <state width="1082" height="317" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1615112773178" />
+    <state width="1082" height="317" key="GridCell.Tab.3.bottom" timestamp="1615112773180">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.3.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615043097217" />
-    <state width="1174" height="317" key="GridCell.Tab.3.center" timestamp="1615043097216">
+    <state width="1082" height="317" key="GridCell.Tab.3.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615112773180" />
+    <state width="1082" height="317" key="GridCell.Tab.3.center" timestamp="1615112773179">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.3.center/0.0.1366.738@0.0.1366.738" timestamp="1615043097216" />
-    <state width="1174" height="317" key="GridCell.Tab.3.left" timestamp="1615043097216">
+    <state width="1082" height="317" key="GridCell.Tab.3.center/0.0.1366.738@0.0.1366.738" timestamp="1615112773179" />
+    <state width="1082" height="317" key="GridCell.Tab.3.left" timestamp="1615112773178">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.3.left/0.0.1366.738@0.0.1366.738" timestamp="1615043097216" />
-    <state width="1174" height="317" key="GridCell.Tab.3.right" timestamp="1615043097217">
+    <state width="1082" height="317" key="GridCell.Tab.3.left/0.0.1366.738@0.0.1366.738" timestamp="1615112773178" />
+    <state width="1082" height="317" key="GridCell.Tab.3.right" timestamp="1615112773179">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1174" height="317" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1615043097217" />
+    <state width="1082" height="317" key="GridCell.Tab.3.right/0.0.1366.738@0.0.1366.738" timestamp="1615112773179" />
     <state width="1275" height="341" key="GridCell.Tab.4.bottom" timestamp="1615018426473">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -438,10 +331,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1615018256529" />
-    <state x="32" y="104" width="1007" height="590" key="find.popup" timestamp="1615041368479">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1615043479072">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="32" y="104" width="1007" height="590" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1615041368479" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1615043479072" />
+    <state x="79" y="34" width="1220" height="590" key="find.popup" timestamp="1615113969800">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="79" y="34" width="1220" height="590" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1615113969800" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1615026066488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

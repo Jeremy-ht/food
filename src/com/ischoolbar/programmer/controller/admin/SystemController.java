@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.ischoolbar.programmer.dao.admin.UserDao;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -40,6 +41,9 @@ import com.ischoolbar.programmer.util.MenuUtil;
 @Controller
 @RequestMapping("/system")
 public class SystemController {
+
+	@Autowired
+	private UserDao userDao;
 	
 	@Autowired
 	private UserService userService;
@@ -247,5 +251,22 @@ public class SystemController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	@RequestMapping(value = "/listCount", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String, Integer> listCount() {
+		Map<String, Integer> map = new HashMap<>();
+		Integer user = userDao.selectUser();
+		Integer shop = userDao.selectShop();
+		Integer order = userDao.selectOrder();
+		Integer pay = userDao.selectPay();
+
+		map.put("user", user);
+		map.put("shop", shop);
+		map.put("order", order);
+		map.put("pay", pay);
+
+		return map;
 	}
 }
