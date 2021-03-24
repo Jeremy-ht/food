@@ -12,8 +12,9 @@
             <label>状态:</label>
             <select id="search-status" class="easyui-combobox" panelHeight="auto" style="width:120px">
             	<option value="-1">全部</option>
-            	<option value="0">待发货</option>
-            	<option value="1">已发货</option>
+            	<option value="0">待出餐</option>
+                <option value="3">已出餐</option>
+            	<option value="1">配送中</option>
             	<option value="2">已完成</option>
             </select>
             <a href="#" id="search-btn" class="easyui-linkbutton" iconCls="icon-search">搜索</a>
@@ -60,8 +61,9 @@
                 <td align="right">状态:</td>
                 <td>
                 	<select id="edit-status" name="status" class="easyui-combobox" panelHeight="auto" style="width:268px">
-		                <option value="0">待发货</option>
-            			<option value="1">已发货</option>
+		                <option value="0">待出餐</option>
+		                <option value="3">已出餐</option>
+            			<option value="1">配送中</option>
             			<option value="2">已完成</option>
 		            </select>
                 </td>
@@ -234,13 +236,15 @@
 			{ field:'status',title:'状态',width:50,formatter:function(value,row,index){
 				switch(value){
 					case 0:{
-						return '待发货';	
+						return '待出餐';
 					}
 					case 1:{
-						return '已发货';	
+						return '配送中';
 					}
 					case 2:{
 						return '已完成';	
+					}case 3:{
+						return '已出餐';
 					}
 				}
 				return value;

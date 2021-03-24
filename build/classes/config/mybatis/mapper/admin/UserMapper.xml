@@ -53,4 +53,20 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			and sex = #{sex}  
 		</if>
 	</select>
+
+	<select id="selectUser" resultType="Integer">
+		select count(1) from user
+	</select>
+
+	<select id="selectShop" resultType="Integer">
+		select count(1) from food
+	</select>
+
+	<select id="selectOrder" resultType="Integer">
+		select count(1) from orders
+	</select>
+
+	<select id="selectPay" resultType="Integer">
+		select sum(money) from orders
+	</select>
 </mapper>

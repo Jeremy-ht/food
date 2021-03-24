@@ -17,7 +17,7 @@ public class Order {
 	private Long accountId;//客户id
 	private float money;//订单金额
 	private int productNum;//商品数量
-	private int status = 0;//订单状态,0：待发货，1：已发货，2：已完成
+	private int status = 0;//订单状态,0：待出餐，3：已出餐，1：配送中， 2：已完成
 	private String recieveName;//收件人
 	private String phone;//手机号码
 	private String address;//地址

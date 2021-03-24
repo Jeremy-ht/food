@@ -1,8 +1,10 @@
 package com.ischoolbar.programmer.controller.admin;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.ischoolbar.programmer.dao.OrderDao;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,7 +29,11 @@ public class OrderController {
 	
 	@Autowired
 	private OrderService orderService;
-	
+
+	@Autowired
+	private OrderDao orderDao;
+
+
 	/**
 	 * 订单信息列表页面
 	 * @param model
@@ -99,6 +105,8 @@ public class OrderController {
 			ret.put("msg", "订单信息修改失败，请联系管理员!");
 			return ret;
 		}
+		orderDao.updCreatime(order.getId(), order.getStatus(), new Date());
+
 		ret.put("type", "success");
 		ret.put("msg", "修改成功！");
 		return ret;

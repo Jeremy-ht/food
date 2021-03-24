@@ -4,8 +4,11 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import com.ischoolbar.programmer.entity.Orderss;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 import com.ischoolbar.programmer.entity.Order;
@@ -27,7 +30,16 @@ public interface OrderDao {
 	@Select("select * from orders order by id desc limit 1")
 	Order selectMax();
 
+	@Insert("INSERT INTO orderss(orderid,state,creatime) values (#{id},#{status},#{createTime})")
+	int addOrderss(@Param("id") Long id,
+				   @Param("status")int status,
+				   @Param("createTime")Date createTime);
 
-	@Insert("INSERT INTO orderss(orderid,state,creatime) values ();")
-	int addOrderss(Long id, int status, Date createTime);
+	@Insert("INSERT INTO orderss(orderid,state,creatime) values (#{id},#{status},#{createTime})")
+	void updCreatime(@Param("id") Long id,
+					 @Param("status")int status,
+					 @Param("createTime")Date createTime);
+
+	@Select("select * from orderss where orderid = #{id} order by creatime desc")
+	List<Orderss> getList(@Param("id") int id);
 }

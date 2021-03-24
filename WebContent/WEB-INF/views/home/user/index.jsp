@@ -96,14 +96,23 @@
                         <div class="now_submit clearfix" style="margin-left: 0px;">
                             <div class="line-body clearfix info-form_more">
                             <span class="fl lh43">
-                               <fmt:formatDate value="${order.createTime }" pattern="yyyy-MM-dd hh:mm:ss"/>
-                               <c:if test="${order.status == 0 }">待发货</c:if>
-                               <c:if test="${order.status == 1 }">已发货</c:if>
-                               <c:if test="${order.status == 2 }">已完成</c:if>
+                               <fmt:formatDate value="${order.createTime }" pattern="yyyy-MM-dd HH:mm:ss"/>
+                               <c:if test="${order.status == 0 }">
+                                   <span style="color: black">待出餐</span>
+                               </c:if>
+                               <c:if test="${order.status == 3 }">
+                                   <span style="color: black">已出餐</span>
+                               </c:if>
+                               <c:if test="${order.status == 1 }">
+                                   <span style="color: black">配送中</span>
+                               </c:if>
+                               <c:if test="${order.status == 2 }">
+                                   <span style="color: black">已完成</span>
+                               </c:if>
                             </span>
                                 <ul class="nav nav-pills tabdrop fr">
                                     <li class="dropdown pull-right tabdrop">
-                                        <a class="dropdown-toggle" id="J_btn_reg">
+                                        <a class="dropdown-toggle" id="J_btn_reg" onclick="get(${order.id})">
                                             <i class="fa fa-th-list">
                                             </i>
                                         </a>
@@ -114,8 +123,9 @@
 
 
                                 <div class="form-group" style="padding-bottom:0px;">
+                                    <div style="color: #FF6336;font-size: 16px;margin-bottom: 6px">订单信息：</div>
                                     <c:forEach items="${order.orderItems }" var="orderItem">
-                                        <label>
+                                        <label style="color: #b0b0b0;font-size: 14px;">
                                                 ${orderItem.foodName } <span
                                                 style="float:right;color:red;">${orderItem.price } ✕${orderItem.foodNum } ￥：${orderItem.money }元</span>
                                         </label>
@@ -123,6 +133,16 @@
                                     <label>
                                         <span style="float:right;color:red;">总计￥：${order.money}元</span>
                                     </label>
+
+
+                                    <div style="color: #FF6336;font-size: 16px;margin-bottom: 10px">配送信息：
+
+                                        <div class="diva"
+                                             style="color: #b0b0b0;font-size: 14px;padding-left: 10px"></div>
+
+                                    </div>
+
+
                                 </div>
                             </form>
                         </div>
@@ -136,11 +156,85 @@
 <script>
     $(document).ready(function () {
         $(".slide-form").slideUp();
+
+
+        $.ajax({
+            url: 'update_info2/19',
+            type: 'post',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data)
+
+            }
+        });
+
+
     });
     $(".info-form_more").click(function () {
         $(this).next("form").slideToggle();
     });
+    //
+    // document.getElementById("J_btn_reg").onclick = function(id) {
+    //     console.log(id);
+    //
+    //     $.ajax({
+    //         url: 'update_info2/' + id,
+    //         type: 'post',
+    //         dataType: 'json',
+    //         success: function (data) {
+    //             console.log(data);
+    //             $('#diva').html(data)
+    //
+    //         }
+    //     });
+    //
+    // };
 
+    function get(id) {
+        $('.diva').val();
+
+        $.ajax({
+            url: 'update_info2/' + id,
+            type: 'post',
+            dataType: 'json',
+            success: function (data) {
+                var html = '<ul style="color: #b0b0b0;font-size: 14px;margin-top:10px;margin-left: 6px;">';
+                //creatime: 1615727626000   id: 7      orderid: 18   state: 2
+                // //订单状态,0：待出餐，3：已出餐，1：配送中， 2：已完成
+                for (let i = 0; i < data.length; i++) {
+                    let state = data[i].state;
+                    let a = '';
+                    if (state == 0) {
+                        a = '待出餐';
+                    } else if (state == 1) {
+                        a = '配送中';
+                    } else if (state == 3) {
+                        a = '已出餐';
+                    } else if (state == 2) {
+                        a = '已完成';
+                    }
+                    let time = timestampToTime(data[i].creatime)
+
+                    html += '<li style="margin-bottom: 2px">' + time + ' <span style="margin-left: 6px">' + a + ' </span></li>'
+                }
+
+                html += '</ul>';
+                $('.diva').html(html);
+
+            }
+        });
+    }
+
+    function timestampToTime(timestamp) {
+        var date = new Date(timestamp);//时间戳为10位需*1000，时间戳为13位的话不需乘1000
+        Y = date.getFullYear() + '-';
+        M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+        D = date.getDate() + ' ';
+        h = date.getHours() + ':';
+        m = date.getMinutes() + ':';
+        s = date.getSeconds();
+        return Y + M + D + h + m + s;
+    }
 
     $("#layoutUser").click(function () {
 
@@ -155,7 +249,7 @@
                     success: function () {
                         window.location.href = '../index/index';
                     },
-                    error:function () {
+                    error: function () {
                         window.location.href = '../index/index';
                     }
                 });

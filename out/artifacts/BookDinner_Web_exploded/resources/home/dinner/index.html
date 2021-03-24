@@ -276,7 +276,7 @@
 				
 				$("#imgViewer").show();
 				var item = getIndex($(this).attr("data_id"));
-				$("#J_imgInfo").html("<strong>"+ item.name +"</strong><span class=\"colred\">"+ item.price +"元/例粒</span><small>"+ item.sels +"人买过</small>");
+				$("#J_imgInfo").html("<strong>"+ item.name +"</strong><small>"+ item.sels +"人买过</small><span class=\"colred\">"+ item.price +"元/例粒</span>");
 				var img = new Image();
 				img.src = $(this).attr("src");
 				if(img.complete){
@@ -362,7 +362,7 @@
 			});
 			$("#J_btn_reg").click(function(){
 				$("#form_info").toggle("normal","linear");
-			
+                console.log(222)
 			});
 			$("#submitOrder").click(function(){
 				$(".viewer:visible").removeClass("show").addClass("hide");

@@ -107,7 +107,7 @@
 							removeClass(document.querySelector(".login"), "active");
 							removeClass(document.querySelector(".sk-rotating-plane"), "active");
 							document.querySelector(".login").style.display = "block";
-							alert(data.msg);
+							$.messager.alert('Info', data.msg);
 							changeCpacha();
 						}
 					}

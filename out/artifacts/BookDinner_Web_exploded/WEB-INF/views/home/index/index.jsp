@@ -3,7 +3,8 @@
 <%@include file="../common/header.jsp" %>
 <body>
 
-<div class="logoDiv" style=" position: fixed;left: 0;top: 0;bottom:60px;z-index:99;background-color: #484848; width: 100%;border-radius: 2px;height: 40px;">
+<div class="logoDiv"
+     style=" position: fixed;left: 0;top: 0;bottom:60px;z-index:99;background-color: #484848; width: 100%;border-radius: 2px;height: 40px;">
     <svg t="1615020343249" style=" width: 32px;height: 32px;margin-top: 4px;margin-left: 10px;"
          viewBox="0 0 1271 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
          p-id="2202" width="200" height="200">
@@ -12,9 +13,9 @@
         <path d="M737.28 0c-15.183448 0-27.789241 12.358621-27.789241 27.153655V274.008276c0 15.32469 12.641103 27.188966 27.789241 27.188965h476.548414c15.642483 0 27.789241-12.358621 27.789241-27.188965V27.188966A27.718621 27.718621 0 0 0 1213.828414 0H737.28z m84.391724 82.449655h308.753655v54.801655H821.671724V82.449655z"
               fill="#FF6336" p-id="2204"></path>
     </svg>
-<%--    <span style="color: white;margin-left: 10px">--%>
-<%--        外卖订餐--%>
-<%--    </span>--%>
+    <%--    <span style="color: white;margin-left: 10px">--%>
+    <%--        外卖订餐--%>
+    <%--    </span>--%>
 
 </div>
 <div id="wrapper" class="viewer">
@@ -24,7 +25,7 @@
             </nav>
         </div>
         <footer class="footFix footRight" id="myOrder">
-			<span style="display:block;width:46px;height:46px;background:url(../../resources/home/images/cart.png)">
+			<span style="display:block;width:46px;height:46px;margin-left: 16px;background:url(../../resources/home/images/cart.png)">
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup id="total-sum"
                                                                                                    display="font-color:red;">0</sup>
                 <!--span class="num">9</span-->
@@ -37,12 +38,12 @@
             </div>
         </div>
     </div>
-<%--    <footer class="footFix footLeft">--%>
-<%--        <button id="myOrder" class="btn_change">--%>
-<%--            菜篮子--%>
-<%--            <!--span class="num">9</span-->--%>
-<%--        </button>--%>
-<%--    </footer>--%>
+    <%--    <footer class="footFix footLeft">--%>
+    <%--        <button id="myOrder" class="btn_change">--%>
+    <%--            菜篮子--%>
+    <%--            <!--span class="num">9</span-->--%>
+    <%--        </button>--%>
+    <%--    </footer>--%>
 </div>
 <div id="wrapper2" class="viewer wrapper countpage clearfix" style="display:none;margin-top: 40px;">
     <section class="order_title">
@@ -274,7 +275,7 @@
 
             $("#imgViewer").show();
             var item = getIndex($(this).attr("data_id"));
-            $("#J_imgInfo").html("<strong>" + item.name + "</strong><span class=\"colred\">" + item.price + "元/份</span><small>" + item.sels + "人买过</small>");
+            $("#J_imgInfo").html("<strong>" + item.name + "</strong><small>" + item.sels + "人买过</small><span class=\"colred\"> ￥" + item.price + "</span>");
             var img = new Image();
             img.src = $(this).attr("src");
             if (img.complete) {
@@ -379,7 +380,7 @@
         });
         $("#J_btn_reg").click(function () {
             $("#form_info").toggle("normal", "linear");
-
+            console.log(1111)
         });
         //提交订单
         $("#submitOrder").click(function () {
@@ -567,7 +568,7 @@
     function buildList(_list) {
         var result = "";
         for (var i in _list) {
-            result += "<div class=\"col-md-4 clearfix foot-items\"><div class=\"col-xs-4 foot-img\"><img src=\"" + _list[i].imageUrl + "\" class=\"img-responsive\" alt=\"Responsive image\" data_id=\"" + _list[i].id + "\" ></div><div class=\"col-xs-6 foot-info\"><p><strong>" + _list[i].name + "</strong></p><p class=\"colred\">" + _list[i].price + "元/份</p><p><small>" + _list[i].sels + "人买过</small></p></div><div class=\"col-xs-2 icons-pick foot-pick\"><div class=\"btn_wrap\" style=\"margin-top:45%;width:80px;\"><button class=\"list_minus\" style=\"display: inline-block;\" data_id=\"" + _list[i].id + "\"><strong></strong></button><i style=\"display: inline-block;\" class=\"food-count-i\">0</i><button class=\"list_add list_id_respone\" data_id=\"" + _list[i].id + "\"><strong></strong></button><em class=\"fixBig  fake\"></em></div></div></div>"
+            result += "<div class=\"col-md-4 clearfix foot-items\"><div class=\"col-xs-4 foot-img\"><img src=\"" + _list[i].imageUrl + "\" class=\"img-responsive\" alt=\"Responsive image\" data_id=\"" + _list[i].id + "\" ></div><div class=\"col-xs-6 foot-info\"><p><strong>" + _list[i].name + "</strong></p><small>" + _list[i].sels + "人买过</small><p class=\"colred\">￥" + _list[i].price + "</p><p></p></div><div class=\"col-xs-2 icons-pick foot-pick\"><div class=\"btn_wrap\" style=\"margin-top:90%;width:80px;\"><button class=\"list_minus\" style=\"display: inline-block;\" data_id=\"" + _list[i].id + "\"><strong></strong></button><i style=\"display: inline-block;\" class=\"food-count-i\">0</i><button class=\"list_add list_id_respone\" data_id=\"" + _list[i].id + "\"><strong></strong></button><em class=\"fixBig  fake\"></em></div></div></div>"
             //<button ontouchstart=\"\" class=\"list_id_respone button button-circle button-flat-primary fa fa-plus\" data_id=\""+_list[i].id+"\"></button>
         }
         return result;

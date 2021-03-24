@@ -1,14 +1,19 @@
 package com.ischoolbar.programmer.controller.home;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
+import com.ischoolbar.programmer.dao.OrderDao;
+import com.ischoolbar.programmer.entity.Order;
+import com.ischoolbar.programmer.entity.Orderss;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -32,6 +37,10 @@ public class HomeAccountController {
 
     @Autowired
     private AccountService accountService;
+
+
+    @Autowired
+    private OrderDao orderDao;
 
 
     /**
@@ -191,6 +200,12 @@ public class HomeAccountController {
         ret.put("type", "success");
         ret.put("msg", "µÇÂ¼³É¹¦!");
         return ret;
+    }
+
+    @RequestMapping(value = "/update_info2/{id}", method = RequestMethod.POST)
+    @ResponseBody
+    public List<Orderss> updateInfo2(@PathVariable("id") int id) {
+        return orderDao.getList(id);
     }
 
 

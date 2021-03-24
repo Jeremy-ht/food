@@ -84,7 +84,7 @@ $("#registerSubmit").click(function(){
 				alert('注册成功');
 				window.location.href = 'login';
 			}else{
-				alert(data.msg);
+                $.messager.alert('Info', data.msg);
 			}
 		}
 	});
