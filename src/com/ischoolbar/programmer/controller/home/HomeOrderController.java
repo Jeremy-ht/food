@@ -8,6 +8,7 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
+import com.ischoolbar.programmer.dao.OrderDao;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -37,6 +38,9 @@ public class HomeOrderController {
 
     @Autowired
     private OrderService orderService;
+
+    @Autowired
+    private OrderDao orderDao;
 
 
 
@@ -117,6 +121,9 @@ public class HomeOrderController {
             ret.put("msg", "订单提交失败，请联系管理员!");
             return ret;
         }
+        Order ord = orderDao.selectMax();
+        int addOrderss = orderDao.addOrderss(ord.getId(),ord.getStatus(), ord.getCreateTime());
+
         for (OrderItem oi : orderItems) {
             oi.setOrderId(order.getId());
             orderService.addItem(oi);
