@@ -13,8 +13,9 @@
         <path d="M737.28 0c-15.183448 0-27.789241 12.358621-27.789241 27.153655V274.008276c0 15.32469 12.641103 27.188966 27.789241 27.188965h476.548414c15.642483 0 27.789241-12.358621 27.789241-27.188965V27.188966A27.718621 27.718621 0 0 0 1213.828414 0H737.28z m84.391724 82.449655h308.753655v54.801655H821.671724V82.449655z"
               fill="#FF6336" p-id="2204"></path>
     </svg>
-    <div id="hy" style="color: white;margin-right: 10px;line-height: 40px;float: right;display: inline-block; width: 40px;">
-          会 员
+    <div id="hy"
+         style="color: white;margin-right: 10px;line-height: 40px;float: right;display: inline-block; width: 40px;">
+        会 员
     </div>
 
 </div>
@@ -176,6 +177,7 @@
     </div>
 </div>
 <script>
+    var price = [];
     var iG = iG || {};
     if (window.localStorage) {
         try {
@@ -447,10 +449,14 @@
             }
             var foodListTmp = iG.order;
             var ids = '';
+            console.log(price);
+            var iii = 0;
             for (var i in foodListTmp) {
                 if (foodListTmp[i].counter === 0) continue;
-                ids += foodListTmp[i].id + "," + foodListTmp[i].counter + ';';
+                ids += foodListTmp[i].id + ',' + foodListTmp[i].counter + "," + price[iii] + ';';
+                iii += 1;
             }
+            console.log(ids);
             $.ajax({
                 url: '../order/submit_order',
                 data: {address: address, phone: phone, recieveName: recieveName, ids: ids},
@@ -483,8 +489,6 @@
         });
 
     });
-
-
 
 
     //初始化整个页面
@@ -546,11 +550,21 @@
     }
 
     function countPrice() {
+        let a = 1;
+        let user = localStorage.getItem('users');
+        if (user == undefined || user == '' || user == null) {
+        } else {
+            let u = JSON.parse(user);
+            if (u.top == 1) {
+                a = 0.8
+            }
+        }
+
         var price = 0;
         for (var i in iG.order) {
             price += Number(iG.order[i].price) * iG.order[i].counter;
         }
-        return price;
+        return price.toFixed(2);
     }
 
     function listManger(_list) {
@@ -581,14 +595,38 @@
         return result;
     }
 
+
     function buildOrder(_list) {
-        var result = "<div class=\"row\" id=\"J_order_Manager\"><div class=\"col-xs-12 clearfix board_content\"><div class=\"col-xs-4 title_contain\"><p class=\"menu_title \">菜篮子</p></div><div class=\"col-xs-2\"></div><div class=\"col-xs-3 title_contain\"><button class=\"button button-rounded button-flat-action\" id=\"addOrder\">选菜</button></div><div class=\"col-xs-3 title_contain\"><button id=\"clearOder\"class=\"button button-rounded button-flat\">清空</button></div></div></div>";
+        price = [];
+        let a = 1;
+        let user = localStorage.getItem('users');
+        if (user == undefined || user == '' || user == null) {
+        } else {
+            let u = JSON.parse(user);
+            if (u.top == 1) {
+                a = 0.8
+            }
+        }
+
+        var result = "<div class=\"row\" id=\"J_order_Manager\"><div class=\"col-xs-12 clearfix board_content\">" +
+            "<div class=\"col-xs-4 title_contain\"><p class=\"menu_title \">菜篮子</p></div><div class=\"col-xs-2\"></div>" +
+            "<div class=\"col-xs-3 title_contain\"><button class=\"button button-rounded button-flat-action\" id=\"addOrder\">选菜</button></div>" +
+            "<div class=\"col-xs-3 title_contain\"><button id=\"clearOder\"class=\"button button-rounded button-flat\">清空</button></div></div></div>";
         var check = true;
 
         for (var i in _list) {
             if (_list[i].counter === 0) continue;
             check = false;
-            result += "<div class=\"row gray_line\"><div class=\"col-md-12 clearfix board_content\"><div class=\"col-xs-6\"><div class=\"col-md-6 clearfix order_item_name\"><label>" + _list[i].name + "</label></div><div class=\"col-md-6 clearfix order_price\">" + _list[i].price + "元一例</div></div><div class=\"col-xs-6\"><div class=\"btn_wrap counter\"><button class=\" counter_minus fl\" style=\"display: inline-block;\" data_id=\"" + _list[i].id + "\" ontouchstart=\"\"><strong></strong></button><i class=\"nocounter fl\" style=\"display: inline-block;\">" + _list[i].counter + "</i><button class=\"list_add counter_plus\" data_id=\"" + _list[i].id + "\" ontouchstart=\"\"><strong></strong></button><em class=\"fixBig  fake\"></em></div></div></div></div>";
+
+            price.push((_list[i].price * a).toFixed(2));
+            result += "<div class=\"row gray_line\"><div class=\"col-md-12 clearfix board_content\">" +
+                "<div class=\"col-xs-6\"><div class=\"col-md-6 clearfix order_item_name\"><label>" + _list[i].name + "</label>" +
+                "</div><div class=\"col-md-6 clearfix order_price\">" + (_list[i].price * a).toFixed(2) + "元/份</div></div><div class=\"col-xs-6\">" +
+                "<div class=\"btn_wrap counter\"><button class=\" counter_minus fl\" " +
+                "style=\"display: inline-block;\" data_id=\"" + _list[i].id + "\" ontouchstart=\"\"><strong></strong></button>" +
+                "<i class=\"nocounter fl\" style=\"display: inline-block;\">" + _list[i].counter + "</i>" +
+                "<button class=\"list_add counter_plus\" data_id=\"" + _list[i].id + "\" ontouchstart=\"\"><strong></strong></button>" +
+                "<em class=\"fixBig  fake\"></em></div></div></div></div>";
 
 
         }

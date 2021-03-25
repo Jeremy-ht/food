@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import com.ischoolbar.programmer.dao.OrderDao;
 import com.ischoolbar.programmer.entity.Order;
 import com.ischoolbar.programmer.entity.Orderss;
+import net.sf.json.JSON;
+import net.sf.json.JSONObject;
+import net.sf.json.JSONString;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -180,8 +183,8 @@ public class HomeAccountController {
      */
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, String> login(Account account, HttpServletRequest request) {
-        Map<String, String> ret = new HashMap<String, String>();
+    public Map<String, Object> login(Account account, HttpServletRequest request) {
+        Map<String, Object> ret = new HashMap<String, Object>();
         if (account == null) {
             ret.put("type", "error");
             ret.put("msg", "请填写正确的信息！");
@@ -209,7 +212,11 @@ public class HomeAccountController {
             return ret;
         }
         request.getSession().setAttribute("account", findByName);
+
+
+
         ret.put("type", "success");
+        ret.put("a", findByName);
         ret.put("msg", "登录成功!");
         return ret;
     }
@@ -220,6 +227,13 @@ public class HomeAccountController {
         return orderDao.getList(id);
     }
 
+
+    @RequestMapping(value = "/sethy/{id}", method = RequestMethod.GET)
+    @ResponseBody
+    public Account sethy(@PathVariable("id") int id) {
+        orderDao.sethy(id);
+        return orderDao.gethy(id);
+    }
 
     @RequestMapping(value = "/update_info", method = RequestMethod.POST)
     @ResponseBody

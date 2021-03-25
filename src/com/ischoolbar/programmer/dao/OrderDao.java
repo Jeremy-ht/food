@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import com.ischoolbar.programmer.entity.Account;
 import com.ischoolbar.programmer.entity.Orderss;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
@@ -42,4 +43,10 @@ public interface OrderDao {
 
 	@Select("select * from orderss where orderid = #{id} order by creatime desc")
 	List<Orderss> getList(@Param("id") int id);
+
+	@Select("update Account set top = 1 where id = #{id}")
+	void sethy(@Param("id") int id);
+
+	@Select("select * from Account where id = #{id}")
+	Account gethy(@Param("id") int id);
 }

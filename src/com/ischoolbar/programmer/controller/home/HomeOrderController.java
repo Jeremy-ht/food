@@ -102,14 +102,14 @@ public class HomeOrderController {
             String[] splitId = idStr.split(",");
             Food food = foodService.find(Long.valueOf(splitId[0]));
             productNum += Integer.valueOf(splitId[1]);
-            money += food.getPrice() * Float.valueOf(splitId[1]);
+            money += Float.valueOf(splitId[2]) * Float.valueOf(splitId[1]);
             OrderItem orderItem = new OrderItem();
             orderItem.setFoodId(food.getId());
             orderItem.setFoodImage(food.getImageUrl());
             orderItem.setFoodName(food.getName());
             orderItem.setFoodNum(Integer.valueOf(splitId[1]));
-            orderItem.setMoney(food.getPrice() * Float.valueOf(splitId[1]));
-            orderItem.setPrice(food.getPrice());
+            orderItem.setMoney(Float.valueOf(splitId[2]) * Float.valueOf(splitId[1]));
+            orderItem.setPrice(Float.valueOf(splitId[2]));
             orderItems.add(orderItem);
         }
         order.setAccountId(account.getId());

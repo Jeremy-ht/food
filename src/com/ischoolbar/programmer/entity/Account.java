@@ -15,6 +15,16 @@ public class Account {
 	private String realName;//真实名称
 	private String phone;//手机号码
 	private String address;//地址
+	private int top;//地址
+
+	public int getTop() {
+		return top;
+	}
+
+	public void setTop(int top) {
+		this.top = top;
+	}
+
 	public Long getId() {
 		return id;
 	}
