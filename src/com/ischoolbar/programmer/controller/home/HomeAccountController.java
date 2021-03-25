@@ -77,6 +77,18 @@ public class HomeAccountController {
     }
 
     /**
+     * 用户登录页面
+     *
+     * @param model
+     * @return
+     */
+    @RequestMapping(value = "/hy", method = RequestMethod.GET)
+    public ModelAndView hy(ModelAndView model) {
+        model.setViewName("home/user/hy");
+        return model;
+    }
+
+    /**
      * 用户注册页面
      *
      * @param model
