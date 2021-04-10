@@ -9,7 +9,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</insert>
 	<!-- 客户编辑操作 -->
 	<update id="edit" parameterType="com.ischoolbar.programmer.entity.Account">
-		update account set name = #{name},password = #{password},realName = #{realName},phone = #{phone},address = #{address} where id = #{id}
+		update account set name = #{name},realName = #{realName},phone = #{phone},address = #{address} where id = #{id}
 	</update>
 	<!-- 客户信息搜索查询 -->
 	<select id="findList" parameterType="Map" resultType="com.ischoolbar.programmer.entity.Account">
